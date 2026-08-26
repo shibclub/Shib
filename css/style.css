@@ -848,6 +848,14 @@ footer {
   color: var(--orange) !important;
 }
 
+/* TAB PANELS */
+.tab-panel {
+  display: none;
+}
+.tab-panel.active {
+  display: block;
+}
+
 /* =============================================
    PROJECTS SECTION (within index.html)
    ============================================= */
@@ -856,6 +864,7 @@ footer {
   padding: 120px 40px;
   position: relative;
   overflow: hidden;
+  min-height: calc(100vh - 200px);
 }
 .projects-bg-glow {
   position: absolute;
